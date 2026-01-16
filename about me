@@ -1,0 +1,87 @@
+ <!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <title>เกี่ยวกับฉัน - My Portfolio</title>
+
+
+    
+</head>
+
+<body>
+
+
+    <nav>
+        <a href="./index.html">หน้าแรก</a> |
+        <a href="#about">เกี่ยวกับฉัน</a> |
+        <a href="https://kit-680710788.w3spaces.com/aboutme.html">กฤติยา</a>|
+        <a href="https://juta-680710344.w3spaces.com/aboutMe.html">จุฑารัตน์</a> |
+        <a href="https://ross-680710815.w3spaces.com/aboutme.html">รสนันท์</a> |
+    <hr>
+
+
+    <h1 id="about">เกี่ยวกับฉัน</h1>
+
+    
+    <img src="./thi_.jpg" alt="My photo" width="200-" height="350">
+
+
+    <h2>ข้อมูลส่วนตัว</h2>
+    <p>
+        สวัสดีค่ะ! ฉันชื่อ <strong>ธิติกานต์ ปีตะนีลานนท์</strong><br>
+        เป็นนักศึกษาชั้นปีที่ 1 สาขา <em>เทคโนโลยีสารสนเทศ</em><br>
+        มหาวิทยาลัยศิลปากร วิทยาเขตพระราชวังสนามจันทร์
+    </p>
+
+
+    <h2>งานอดิเรก</h2>
+    <ul>
+        <li>ฟังเพลง นอน อ่านนิยาย </li>
+       
+    </ul>
+
+    <h2 id="skills">ทักษะที่กำลังเรียนรู้</h2>
+    <p>
+        ตอนนี้ฉันกำลังเรียนรู้
+        <abbr title="HyperText Markup Language">HTML</abbr> และ
+        <abbr title="Cascading Style Sheets">CSS</abbr>
+    </p>
+
+    <h2>คำพูดที่ชอบ</h2>
+
+     <blockquote>
+        <p><em> spacesมีปัญหาอีกแล้ว ต้องทำใหม่อีกกี่รอบเนี่ย</em></p>
+    </blockquote>
+    <p><small>- Steve Jobs</small></p>
+        </blockquote>
+    <h2>Social Media</h2>
+    <p>
+        <a href="https://www.facebook.com/ig.wasabikug" target="_blank">→Facebook</a> →
+    </p>
+
+    <h2 id="contact">ยินดีนำเสนอ</h2>
+    <p>
+        <a href="https://www.w3schools.com" target="_blank">W3Schools</a> →
+        เว็บเรียนเขียนโค้ดฟรี
+    </p>
+        <h2 id="contact">ติดต่อ</h2>
+    <p>
+        Email: <a href="peetaneelanoln_t@silpakorn.edu">chitchamnong_p@silpakorn.edu</a>
+    </p>
+    <p>
+    <a href="mailto:chitchamnong_p@silpakorn.edu">ส่งอีเมลหาฉัน</a>
+    </p>
+
+    <hr>
+
+    <footer>
+        <p>
+            <small>&copy; 2025 Pratumpron Jitjamnong. Made with &hearts;</small>
+        </p>
+        <p>
+            <a href="#skills">&uarr; กลับไปส่วน Skills</a>
+        </p>
+    </footer>
+
+</body>
+</html>
