@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <title>ตารางเรียนของฉัน</title>
+</head>
+<body>
+
+    <h1>ตารางเรียน ภาคเรียนที่ 2/2568</h1>
+
+    <!-- ข้อมูลนักศึกษา -->
+    <h2>ข้อมูลนักศึกษา</h2>
+    <dl>
+        <dt>ชื่อ-นามสกุล</dt>
+        <dd>นางสาว ธิติกานต์ ปีตะนีลานนท์</dd>
+
+        <dt>รหัสนักศึกษา</dt>
+        <dd>680711051</dd>
+
+        <dt>สาขาวิชา</dt>
+        <dd>เทคโนโลยีสารสนเทศ</dd>
+    </dl>
+
+    <!-- ตารางเรียน -->
+    <h2>ตารางเรียนประจำสัปดาห์</h2>
+    <table style="width:100%; border-collapse:collapse;">
+        <caption><strong>ตารางเรียน ปีการศึกษา 2568</strong></caption>
+        <thead>
+            <tr style="background:#DDDBFF; color:#000;">
+                <th style="border:1px solid #ddd; padding:10px;">วัน/เวลา</th>
+                <th style="border:1px solid #ddd; padding:10px;">08:30-10:15</th>
+                <th style="border:1px solid #ddd; padding:10px;">09:25-12:05</th>
+                <th style="border:1px solid #ddd; padding:10px;">10:20-12:05</th>
+                <th style="border:1px solid #ddd; padding:10px;">13:00-13:50</th>
+                <th style="border:1px solid #ddd; padding:10px;">13:55-14:45</th>
+                <th style="border:1px solid #ddd; padding:10px;">14:50-16:35</th>
+                <th style="border:1px solid #ddd; padding:10px;">16:40-18:25</th>
+                <th style="border:1px solid #ddd; padding:10px;">16:40-19:20</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th style="border:1px solid #ddd; padding:10px; background:#F1FA93;">จันทร์</th>
+                <td>-</td>
+                <td>SU203-162</td>
+                <td>-</td>
+                <td>-</td>
+                <td>-</td>
+                <td>520112-165 WEB TECHNOLOGY</td>
+                <td>SU401-162</td>
+                <td>-</td>
+            </tr>
+
+            <tr>
+                <th style="border:1px solid #ddd; padding:10px; background:#F393FA;">อังคาร</th>
+                <td>-</td>
+                <td>ENGLISH FOR INTERNATIONAL COMMUNICATION</td>
+                <td>-</td>
+                <td>-</td>
+                <td>-</td>
+                <td>-</td>
+                <td>-</td>
+                <td>-</td>
+            </tr>
+
+            <tr>
+                <th style="border:1px solid #ddd; padding:10px; background:#B9FA93;">พุธ</th>
+                <td>-</td>
+                <td>-</td>
+                <td>COMPUTER PROGRAMMING SKILL I</td>
+                <td>COMPUTER PROGRAMMING SKILL I</td>
+                <td>-</td>
+                <td>-</td>
+                <td>COMPUTER PROGRAMMING SKILL I</td>
+                <td>-</td>
+            </tr>
+
+            <tr>
+                <th style="border:1px solid #ddd; padding:10px; background:#FADD93;">พฤหัสบดี</th>
+                <td>-</td>
+                <td>ENGLISH FOR INTERNATIONAL COMMUNICATION</td>
+                <td>-</td>
+                <td>-</td>
+                <td>DISCRETE COMPUTATIONAL STRUCTURES</td>
+                <td>-</td>
+                <td>-</td>
+                <td>SU102-162</td>
+            </tr>
+
+            <tr>
+                <th style="border:1px solid #ddd; padding:10px; background:#93F7FA;">ศุกร์</th>
+                <td>-</td>
+                <td>-</td>
+                <td>-</td>
+                <td>COMPUTER PROGRAMMING SKILL I</td>
+                <td>-</td>
+                <td>-</td>
+                <td>-</td>
+                <td>-</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <!-- รายวิชาที่ลงทะเบียน -->
+    <h2>รายวิชาที่ลงทะเบียน</h2>
+    <ol>
+        <li>SU203-162
+            <ul>
+                <li>หน่วยกิต: 3 (3-0-6)</li>
+                <li>ผู้สอน: Suweena Chaiphat</li>
+            </ul>
+        </li>
+        <li>520112-165 WEB TECHNOLOGY
+            <ul>
+                <li>หน่วยกิต: 1 (0-2-1)</li>
+                <li>ผู้สอน: ดร.สัจจาภรณ์ ไวจรรยา</li>
+            </ul>
+        </li>
+        <li>SU401-162
+            <ul>
+                <li>หน่วยกิต: 3 (3-0-6)</li>
+                <li>ผู้สอน: Patikorn Sriphirom</li>
+            </ul>
+        </li>
+        <li>SU102-162
+            <ul>
+                <li>หน่วยกิต: 3 (3-0-6)</li>
+                <li>ผู้สอน: Patikorn Sriphirom</li>
+            </ul>
+        </li>
+        <li>ENGLISH FOR INTERNATIONAL COMMUNICATION
+            <ul>
+                <li>หน่วยกิต: 3 (2-2-5)</li>
+                <li>ผู้สอน: Teeraraty Achiramida</li>
+            </ul>
+        </li>
+        <li>517122-165 COMPUTER PROGRAMMING SKILL I
+            <ul>
+                <li>หน่วยกิต: 4 (2-4-6)</li>
+                <li>ผู้สอน: ดร.ภูริวัจน์ วรวิชัยพัฒน์</li>
+            </ul>
+        </li>
+        <li>DISCRETE COMPUTATIONAL STRUCTURES
+            <ul>
+                <li>หน่วยกิต: 3 (3-0-6)</li>
+                <li>ผู้สอน: Kristsana Seepanomwan</li>
+            </ul>
+        </li>
+    </ol>
+
+    <!-- To-do -->
+    <h2>📝 To-Do List สัปดาห์นี้</h2>
+    <ul style="list-style-type:none;">
+        <li>✅ ทำ Assignment 1 - Web Technology</li>
+        <li>⬜ อ่านบทที่ 3 - Programming</li>
+        <li>⬜ ทำแบบฝึกหัด Calculus</li>
+        <li>⬜ เตรียมตัวสอบ Quiz</li>
+    </ul>
+
+    <a href="https://html.w3spaces.com/index.html">HOME</a>
+    <hr>
+    <p><small>&copy; 2025 - สร้างด้วย HTML</small></p>
+
+</body>
+</html>
