@@ -1,0 +1,56 @@
+ 
+ <!DOCTYPE html>
+ <html>
+    <head>
+        <meta charset="UTF-8">
+        <title> Text & Links</title>
+    </head>
+    <body>
+        <nav>
+        <a href="index.html">หน้าแรก</a> |
+        <a href="#Basichtnl3">หน้า3</a> |
+        <hr>
+
+    <p>เนื้อหาส่วนที่ 1<hr>
+    <p>เนื้อหาส่วนที่ 1.1</p>
+    <a href="#section1">ไปยังหัวข้อ 1</a>
+    <a href="#section2">ไปยังหัวข้อ 2</a>
+    <hr>
+    <p>เนื้อหาส่วนที่ 2</p>
+    <pre>
+        *
+       ***
+      *****  
+        |
+    </pre>
+<h2 id="section1">หัวข้อ 1</h2>
+<p>เนื้อหาของหัวข้อ 1...</p>
+<!-- ตัวหนาและเอียง -->
+<p>นี่คือข้อความ <strong><em>สำคัญมาก</em></strong></p>
+
+<!-- ลบแล้วแทนที่ -->
+<p>ราคา: <del>฿999</del> <ins>฿599</ins></p>
+
+<!-- สูตรเคมี -->
+<p>สูตรน้ำ: H<sub>2</sub>O</p>
+<p>สูตรคำนวณพื้นที่: πr<sup>2</sup></p>
+
+<p>
+    <abbr title="HyperText Markup Language">HTML</abbr> 
+    เป็นภาษาพื้นฐานในการสร้างเว็บ
+</p>
+<h2 id="section2">หัวข้อ 2</h2>
+<p>เนื้อหาของหัวข้อ 2...</p>
+<!-- Block quote (ข้อความยาว) -->
+<blockquote cite="https://www.example.com">
+    <p>The only way to do great work is to love what you do.</p>
+</blockquote>
+
+<!-- Inline quote (ข้อความสั้น) -->
+<p>Steve Jobs กล่าวว่า <q>Stay hungry, stay foolish.</q></p>
+
+<p>ใช้คำสั่ง <code>console.log()</code> เพื่อแสดงผล</p>
+<p>กด <kbd>Ctrl</kbd> + <kbd>C</kbd> เพื่อคัดลอก</p>
+<a href="../index.html">HOME</a><br>
+    </body>
+ </html>
