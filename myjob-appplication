@@ -1,0 +1,83 @@
+
+  <!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Form Register</title>
+</head>
+<body>
+    <form action="/register" method="POST">
+        <fieldset>
+            <legend>สมัครสมาชิก</legend>
+            <form>
+                <fieldset>
+                    <legend>ข้อมูลส่วนตัว</legend>
+                    <label>ชื่อ: <input type="text" name="firstname"></label>
+                    <label>นามสกุล: <input type="text" name="lastname"></label>
+                </fieldset>
+                
+                <fieldset>
+                    <legend>ข้อมูลติดต่อ</legend>
+                    <label>อีเมล:<input type="tel"
+                    id="email"
+                    name="email"
+                    placeholder="example@email.com"
+                    required>
+                    <label>โทรศัพท์: 
+                    <input type="tel"
+                    name="phone"
+                    pattern="0[0-9]{2}-[0-9]{3}-[0-9]{4}"
+                    placeholder="0xx-xxx-xxxx"
+                    title="กรุณากรอกในรูปแบบ 0xx-xxx-xxxx">
+                </fieldset>
+            </form>
+            </div>
+            <!-- วันเกิด -->
+            <div class="form-group">
+                <label for="birthdate">วันเกิด</label>
+                <input type="date"
+                    id="birthdate"
+                    name="birthdate"
+                    max="2010-01-01">
+            </div>
+            <label for="development">ตำแหน่งที่สนใจ :</label>
+            <select id="development" name="development">
+                <option value="">-- กรุณาเลือก --</option>
+                <option value="se">Software Engineer</option>
+                <option value="sd">Software Developer</option>
+                <option value="cm">Web Developer</option>
+                <option value="sde">Mobile App Develope</option>
+                <option value="nkp">Game Developer</option>
+                <option value="ck">System Engineer/option>
+            </select>
+            <label for="skills">ทักษะ (เลือกได้หลายรายการ):</label>
+            <select id="skills" name="skills" multiple size="4">
+                <option value="html">HTML</option>
+                <option value="css">CSS</option>
+                <option value="js">JavaScript</option>
+                <option value="python">Python</option>
+            </select>
+
+            
+            <label for="message">แนะนำตัว :</label>
+            <textarea id="message"
+                    name="message"
+                    rows="25"
+                    cols="100"
+                    placeholder="พิมพ์ข้อความของคุณที่นี่..."
+                    maxlength="500"></textarea>
+            
+            <input type="file" name="Resume" accept="Resume/*">
+                        <!-- ยอมรับเงื่อนไข -->
+            <div class="form-group">
+                <label>
+                    <input type="checkbox" name="agree" required>
+                    ยอมรับเงื่อนไขการใช้งาน *
+                </label>
+            </div>
+            <button type="submit">สมัครสมาชิก</button>
+        </fieldset>
+    </form> 
+    <a href="./index.html">HOME</a><br>
+</body>
+</html>
